@@ -8,6 +8,7 @@ h1 {
   line-height: 1.5;
   font-weight: bold;
 }
+
 h3 {
   font-family: "Montserrat-Bold";
 }
@@ -22,18 +23,34 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+
 }
 
 /* title image */
 .iphone {
-  width: 60%;
-  margin-top: 60px;
-    margin-left: 60px;
-  transform: rotate(22deg);
+  width: 55%;
+  top: 60px;
 
+  transform: rotate(18deg);
+  position: absolute;
+  right: 30%;
 
 }
+
+@media (max-width:999px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    margin: 25%;
+  }
+}
+
 
 /* navigation bar */
 
@@ -60,6 +77,9 @@ p {
 /* Features section */
 #features {
   padding: 7% 8%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -85,46 +105,75 @@ p {
 }
 
 #testimonials {
- 
+
   text-align: center;
   background-color: #ef8172;
   color: #fff;
-  
+
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 13%;
 }
 
 /* press section */
 
-#press
-{
+#press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 
 }
 
-.press-logo
-{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
 /* pricing section */
-#pricing
-{
+#pricing {
   padding: 100px;
- 
+
 }
 
-.pricing-column
-{
-  padding: 3% 2%;
+.pricing-column {
+  padding: 3% 3%;
 }
 
-.pricing-header
-{
+.pricing-header {
   padding: 1% 2%;
   text-align: center;
+}
+
+/* Call to Action  */
+
+
+#cta {
+  padding: 7% 13%;
+  background-color: #ff4c68;
+  color: #fff;
+
+  text-align: center;
+
+}
+
+.cta-heading {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+
+  padding: 7% 13%;
+  background-color: #fff;
+
+
+}
+
+
+.social-icon{
+  margin: 20px 10px;
 }
