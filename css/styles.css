@@ -1,27 +1,36 @@
-body,h3 {
-  font-family: "Montserrat-Black";
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat-Black", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
-}
-
-h3 {
-  font-family: "Montserrat-Bold";
 }
 
 p {
   color: #8f8f8f;
 }
 
+/* Title section */
+
 #title {
   background-color: #ff4c68;
   color: #fff;
-}
 
+}
 
 
 /* title image */
@@ -32,8 +41,6 @@ p {
   transform: rotate(18deg);
   position: absolute;
   right: 10%;
-  
-
 }
 
 @media (max-width:999px) {
@@ -42,15 +49,12 @@ p {
     text-align: center;
   }
 
-
-
-
   .iphone {
 
     position: static;
     left: 5%;
     transform: rotate(0);
-  
+
   }
 }
 
@@ -83,10 +87,17 @@ p {
   background-color: #fff;
   position: relative;
   z-index: 1;
+  text-align: center;
+}
+
+.feature-title {
+
+  font-size: 1.5rem;
+
 }
 
 .feature-box {
-  text-align: center;
+
   padding: 5%;
 }
 
@@ -100,6 +111,12 @@ p {
 }
 
 /* testimonial */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .testimonial-image {
   border-radius: 50%;
   width: 100px;
@@ -109,9 +126,9 @@ p {
 
 #testimonials {
 
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
+  text-align: center;
 
 }
 
@@ -123,9 +140,9 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
 
+  padding-bottom: 3%;
+  text-align: center;
 }
 
 .press-logo {
@@ -134,9 +151,24 @@ p {
 }
 
 /* pricing section */
+
+
+
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+
 }
 
 .pricing-column {
@@ -145,7 +177,7 @@ p {
 
 /* .pricing-header {
   padding: 1% 2%;
-  text-align: center;
+ 
 } */
 
 /* Call to Action  */
@@ -160,16 +192,11 @@ p {
 
 }
 
-.cta-heading {
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
 /* footer */
 #footer {
-  text-align: center;
 
+  text-align: center;
   padding: 7% 13%;
   background-color: #fff;
 
@@ -177,6 +204,6 @@ p {
 }
 
 
-.social-icon{
+.social-icon {
   margin: 20px 10px;
 }
